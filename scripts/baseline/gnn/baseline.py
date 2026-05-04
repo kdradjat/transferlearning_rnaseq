@@ -17,7 +17,7 @@ from transferlearning_rnaseq.config import config
 import transferlearning_rnaseq.utils as tu
 from transferlearning_rnaseq.Early_stopper import EarlyStopper
 from transferlearning_rnaseq.mlp.model import GNN
-from transferlearning_rnaseq.GNN.dataset import PPIDataset
+from transferlearning_rnaseq.gnn.dataset import PPIDataset
 from pytorch_lightning.loggers import CSVLogger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
