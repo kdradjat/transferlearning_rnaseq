@@ -1,0 +1,6 @@
+activation_function: ReLU
+batch_size: 32
+learning_rate: 0.001
+momentum: 0.9
+num_epochs: 50
+optimizer: SGD
