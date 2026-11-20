@@ -28,7 +28,7 @@ config = {
                 },
             "params_model": {
                 "input_size": 19887,
-                "output_size": 19
+                "output_size": 18
             },
             "loss_function": nn.CrossEntropyLoss(),
             },
